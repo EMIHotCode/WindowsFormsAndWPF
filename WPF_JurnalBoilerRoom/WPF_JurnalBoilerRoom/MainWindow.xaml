@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPF_JurnalBoilerRoom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_JurnalBoilerRoom"
+        mc:Ignorable="d"
+        Title="Журнал оператора котельной" Height="850" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Дата: " HorizontalAlignment="Center" FontSize="12"/>
+            <DatePicker Name="datePicker" IsDropDownOpen="False" SelectedDateFormat="Short" />
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">Время</TextBlock>
+            </Label>
+            <Label Width="90" Height="100" >
+                <TextBlock TextWrapping="Wrap">Температура</TextBlock>
+            </Label>
+            <Label Width="50" Height="100" >
+                <TextBlock TextWrapping="Wrap">№ котла в работе</TextBlock>
+            </Label>
+        </StackPanel>
+
+        <DataGrid ItemsSource="{Binding LogVariables}" Grid.Row="2" Name="varibls">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="Время" Binding="{Binding Time}" Width="60"/>
+                <DataGridTextColumn Header="Температура" Binding="{Binding Temperature}" Width="90"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+            <StackPanel Grid.Row="3">
+            <Button Content="Добавить" FontSize="20" Margin="300,20,300,20" Command="{Binding OpenAddContactCommand}"/>
+            <Button Content="Удалить" FontSize="20" Margin="300,20,300,20"/>
+        </StackPanel>
+    </Grid>
+</Window>

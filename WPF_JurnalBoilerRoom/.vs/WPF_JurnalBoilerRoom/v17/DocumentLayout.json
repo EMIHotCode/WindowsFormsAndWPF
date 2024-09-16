@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|c:\\users\\admin\\source\\repos\\wpf_jurnalboilerroom\\wpf_jurnalboilerroom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|solutionrelative:wpf_jurnalboilerroom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|c:\\users\\admin\\source\\repos\\wpf_jurnalboilerroom\\wpf_jurnalboilerroom\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|solutionrelative:wpf_jurnalboilerroom\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|c:\\users\\admin\\source\\repos\\wpf_jurnalboilerroom\\wpf_jurnalboilerroom\\model\\logvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|solutionrelative:wpf_jurnalboilerroom\\model\\logvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|c:\\users\\admin\\source\\repos\\wpf_jurnalboilerroom\\wpf_jurnalboilerroom\\model\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26EB6BB-96C0-4B55-879E-177336E7A9AA}|WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom.csproj|solutionrelative:wpf_jurnalboilerroom\\model\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JournalManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\Model\\JournalManager.cs",
+              "RelativeDocumentMoniker": "WPF_JurnalBoilerRoom\\Model\\JournalManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\Model\\JournalManager.cs",
+              "RelativeToolTip": "WPF_JurnalBoilerRoom\\Model\\JournalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:28:02.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogVariables.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\Model\\LogVariables.cs",
+              "RelativeDocumentMoniker": "WPF_JurnalBoilerRoom\\Model\\LogVariables.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\Model\\LogVariables.cs",
+              "RelativeToolTip": "WPF_JurnalBoilerRoom\\Model\\LogVariables.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:37:20.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_JurnalBoilerRoom\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_JurnalBoilerRoom\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:32:07.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_JurnalBoilerRoom\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_JurnalBoilerRoom\\WPF_JurnalBoilerRoom\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_JurnalBoilerRoom\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-16T16:32:10.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 431,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
