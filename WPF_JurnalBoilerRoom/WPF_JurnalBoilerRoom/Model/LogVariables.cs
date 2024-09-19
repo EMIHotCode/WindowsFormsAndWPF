@@ -8,10 +8,10 @@ namespace WPF_JurnalBoilerRoom.Model
 {
     public class LogVariables
     {
-        public int Time { get; set; } // время ?? постоянное не включать в 
+        public string Time { get; set; } // время ?? постоянное не включать в 
         public string Temperature { get; set; } // температура
         //public string PhoneNumber { get; set; }
-        public LogVariables(int time, string temperature)
+        public LogVariables(string time, string temperature)
         {
             Time = time;
             Temperature = temperature;

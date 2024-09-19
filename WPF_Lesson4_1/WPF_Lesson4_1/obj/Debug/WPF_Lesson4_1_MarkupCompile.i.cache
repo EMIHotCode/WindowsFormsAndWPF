@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Admin\source\repos\WPF_Lesson4_1\WPF_Lesson4_1\App.xaml
-21702283168
+31250029438
 
-11-401179211
+12-94301577
 13-38814620
-AddWindow.xaml;MainWindow.xaml;
+AddWindow.xaml;EditWindow.xaml;MainWindow.xaml;
 
-False
+True
 

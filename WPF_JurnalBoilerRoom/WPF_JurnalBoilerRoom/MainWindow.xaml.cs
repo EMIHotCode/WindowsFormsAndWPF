@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows;
+using System.Windows.Controls;
 using WPF_JurnalBoilerRoom.Model;
 
 namespace WPF_JurnalBoilerRoom
@@ -13,27 +14,30 @@ namespace WPF_JurnalBoilerRoom
     {
         BindingList<LogVariables> dayList = new BindingList<LogVariables>()
         {
-            new LogVariables(8, "slkjdlf"),
-            new LogVariables(10, "slkjdlf"),
-            new LogVariables(12, "slkjdlf"),
-            new LogVariables(14, "slkjdlf"),
-            new LogVariables(16, "slkjdlf"),
-            new LogVariables(18, "slkjdlf"),
-            new LogVariables(20, "slkjdlf"),
-            new LogVariables(22, "slkjdlf"),
-            new LogVariables(0, "slkjdlf"),
-            new LogVariables(2, "slkjdlf")
+            new LogVariables("8:00", "slkjdlf"),
+            new LogVariables("10:00", "slkjdlf"),
+            new LogVariables("12:00", "slkjdlf"),
+            new LogVariables("14:00", "slkjdlf"),
+            new LogVariables("16:00", "slkjdlf"),
+            new LogVariables("18:00", "slkjdlf"),
+            new LogVariables("20:00", "slkjdlf"),
+            new LogVariables("22:00", "slkjdlf"),
+            new LogVariables("00:00", "slkjdlf"),
+            new LogVariables("02:00", "slkjdlf"),
+            new LogVariables("04:00", "slkjdlf"),
+            new LogVariables("06:00", "slkjdlf")
         };
         public MainWindow()
         {
             InitializeComponent();
             // Привязка данных
-            varibls.DataContext = dayList;
-
-            foreach (var day in dayList)
+            //varibls.DataContext = dayList;
+            foreach(var item in dayList)
             {
+                varibls.Items.Add(item);
 
             }
+
         }
     }
 }
