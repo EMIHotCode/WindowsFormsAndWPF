@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforchangeevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforchangeevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforviewevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforviewevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\model\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\model\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\viewmodel\\myviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\viewmodel\\myviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforviewevents.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforviewevents.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforchangeevents.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\windowforchangeevents.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2048534B-F080-46B3-B295-FB4E1C562256}|WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439.csproj|solutionrelative:wpf_lesson5_1\u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WindowForChangeEvents.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T17:36:32.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WindowForViewEvents.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T17:13:44.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowForChangeEvents.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForChangeEvents.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T16:44:21.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowForViewEvents.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WindowForViewEvents.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T16:43:42.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\ViewModel\\MyViewModel.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\ViewModel\\MyViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\ViewModel\\MyViewModel.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\ViewModel\\MyViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA6wD8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:35:51.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\EventManager.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\EventManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\EventManager.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\EventManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T15:57:48.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\Event.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\Event.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\Event.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T15:53:19.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T15:40:11.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T15:40:15.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\RelayCommand.cs",
+              "RelativeToolTip": "WPF_Lesson5_1\u041F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u041C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439\\Model\\RelayCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:29:07.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
