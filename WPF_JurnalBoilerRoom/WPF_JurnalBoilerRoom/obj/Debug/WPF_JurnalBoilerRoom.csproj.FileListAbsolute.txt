@@ -13,3 +13,18 @@ C:\Users\Admin\source\repos\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\
 C:\Users\Admin\source\repos\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.exe
 C:\Users\Admin\source\repos\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.pdb
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\bin\Debug\WPF_JurnalBoilerRoom.exe.config
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\bin\Debug\WPF_JurnalBoilerRoom.exe
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\bin\Debug\WPF_JurnalBoilerRoom.pdb
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.csproj.AssemblyReference.cache
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\MainWindow.g.cs
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\App.g.cs
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom_MarkupCompile.cache
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom_MarkupCompile.lref
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\MainWindow.baml
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.g.resources
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.Properties.Resources.resources
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.csproj.GenerateResource.cache
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.csproj.CoreCompileInputs.cache
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.exe
+D:\share\для переноса на ПК\GitHubRepos\WindowsFormsAndWPF\WPF_JurnalBoilerRoom\WPF_JurnalBoilerRoom\obj\Debug\WPF_JurnalBoilerRoom.pdb

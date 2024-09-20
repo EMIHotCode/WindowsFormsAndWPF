@@ -19,7 +19,7 @@
         </StackPanel>
         
         <StackPanel Orientation="Horizontal" Grid.Row="1">
-            <Label Width="60" Height="100" >
+            <Label Width="60" Height="100" Margin="5,0,0,0" >
                 <TextBlock TextWrapping="Wrap">Время</TextBlock>
             </Label>
             <Label Width="90" Height="100" >
@@ -28,14 +28,44 @@
             <Label Width="50" Height="100" >
                 <TextBlock TextWrapping="Wrap">№ котла в работе</TextBlock>
             </Label>
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">P газа на вводе в котельную</TextBlock>
+            </Label>
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">P газа после ГРУ</TextBlock>
+            </Label>
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">P воды на входе в котел №1, №2</TextBlock>
+            </Label>
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">T℃ воды на входе в котел №1, №2</TextBlock>
+            </Label>
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">T℃ воды на выходе из котла №1, №2</TextBlock>
+            </Label>
+            <Label Width="80" Height="110" >
+                <TextBlock TextWrapping="Wrap">Результаты проверки исправности действия приборов и автоматики</TextBlock>
+            </Label>
+            <Label Width="50" Height="100" >
+                <TextBlock TextWrapping="Wrap">Показания водомера</TextBlock>
+            </Label>
+            <Label Width="60" Height="100" >
+                <TextBlock TextWrapping="Wrap">P газа перед котлом №1, №2</TextBlock>
+            </Label>
+            <Label Width="130" Height="100" >
+                <TextBlock TextWrapping="Wrap">Обнаруженные технические неисправности во время приема смены и во время работы</TextBlock>
+            </Label>
+            <Label Width="130" Height="100">
+                <TextBlock TextWrapping="Wrap">Замечания администрации. Подпись ответственного лица</TextBlock>
+            </Label>
         </StackPanel>
 
         <DataGrid ItemsSource="{Binding LogVariables}" Grid.Row="2" Name="varibls">
             <DataGrid.Columns >
-                <DataGridTextColumn Header="Время" Binding="{Binding Time}" Width="60"/>
-                <DataGridTextColumn Header="Температура" Binding="{Binding Temperature}" Width="90"/>
+                <DataGridTextColumn  Binding="{Binding Time}" Width="60"/>
+                <DataGridTextColumn  Binding="{Binding Temperature}" Width="90"/>
             </DataGrid.Columns>
-
+    
         </DataGrid>
             <StackPanel Grid.Row="3">
             <Button Content="Добавить" FontSize="20" Margin="300,20,300,20" Command="{Binding OpenAddContactCommand}"/>

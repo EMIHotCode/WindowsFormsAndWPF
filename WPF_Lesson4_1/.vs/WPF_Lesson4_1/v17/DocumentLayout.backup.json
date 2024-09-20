@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\viewmodel\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\viewmodel\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\editwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\editwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\model\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\model\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\addwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\addwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\model\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\model\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\model\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\model\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\viewmodel\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\viewmodel\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|c:\\users\\admin\\source\\repos\\wpf_lesson4_1\\wpf_lesson4_1\\addwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\addwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\addwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\addwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\addwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\wpf_lesson4_1\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384B8AD2-6C08-421F-8FEA-CBE17CF4D760}|WPF_Lesson4_1\\WPF_Lesson4_1.csproj|solutionrelative:wpf_lesson4_1\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +62,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "EditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\EditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Lesson4_1\\EditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\EditWindow.xaml.cs",
+              "RelativeToolTip": "WPF_Lesson4_1\\EditWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:45:58.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\EditWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_Lesson4_1\\EditWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\EditWindow.xaml",
+              "RelativeToolTip": "WPF_Lesson4_1\\EditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T16:35:01.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ContactViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\ViewModel\\ContactViewModel.cs",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\ViewModel\\ContactViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\ViewModel\\ContactViewModel.cs",
-              "RelativeToolTip": "WPF_Lesson4_1\\ViewModel\\ContactViewModel.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA0wDYAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\ViewModel\\ContactViewModel.cs*",
+              "RelativeToolTip": "WPF_Lesson4_1\\ViewModel\\ContactViewModel.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwJUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T17:03:55.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\Model\\RelayCommand.cs",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\Model\\RelayCommand.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\Model\\RelayCommand.cs",
               "RelativeToolTip": "WPF_Lesson4_1\\Model\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T16:41:54.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AddWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\AddWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\AddWindow.xaml.cs",
@@ -93,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AddWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\AddWindow.xaml",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\AddWindow.xaml",
@@ -111,40 +144,40 @@
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\Model\\ContactManager.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\Model\\ContactManager.cs",
               "RelativeToolTip": "WPF_Lesson4_1\\Model\\ContactManager.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAtwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T15:44:11.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\Model\\Contact.cs",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\Model\\Contact.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\Model\\Contact.cs",
               "RelativeToolTip": "WPF_Lesson4_1\\Model\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T15:41:54.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF_Lesson4_1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T15:27:33.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WPF_Lesson4_1\\WPF_Lesson4_1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF_Lesson4_1\\MainWindow.xaml",

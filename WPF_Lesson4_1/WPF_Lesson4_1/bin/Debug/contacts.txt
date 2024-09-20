@@ -1,2 +1,4 @@
-Контакт1|test1@ya.ru|+7 333 222-11-00
-Контакт2|test2@ya.ru|+7 999 222-11-00
+alskdf|df@ye.ru|+7 666 555-22-11
+asdf|ya@gav.mu|+7 666 555-22-11
+default|default@dtn.ru|+7 555 333-11-00
+default|default@email.ru|+7 999 999-00-00

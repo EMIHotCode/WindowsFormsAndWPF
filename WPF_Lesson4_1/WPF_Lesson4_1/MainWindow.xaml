@@ -13,10 +13,11 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Label Content="Приложение для управления контактами" HorizontalAlignment="Center" FontSize="24"/>
-        <DataGrid ItemsSource="{Binding Contacts}" Grid.Row="1" IsReadOnly="True"/>
+        <DataGrid ItemsSource="{Binding Contacts}" SelectedIndex="{Binding SelectedIndex}" Grid.Row="1" IsReadOnly="True"/>
         <StackPanel Grid.Row="2">
             <Button Content="Добавить" FontSize="20" Margin="300,20,300,20" Command="{Binding OpenAddContactCommand}"/>
-            <Button Content="Удалить" FontSize="20" Margin="300,20,300,20"/>
+            <Button Content="Удалить" FontSize="20" Margin="300,20,300,20" Command="{Binding RemoveContactCommand}"/>
+            <Button Content="Редактировать" FontSize="20" Margin="300,20,300,20" Command="{Binding OpenEditContactCommand}"/>
         </StackPanel>
     </Grid>
 </Window>

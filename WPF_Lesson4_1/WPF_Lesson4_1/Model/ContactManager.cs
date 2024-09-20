@@ -60,21 +60,30 @@ namespace WPF_Lesson4_1.Model
             }
             return true;
         }
-        // Метод для удаления элемента
-        public void RemoveContact(Contact contact)
+        //// Метод для удаления элемента
+        //public void RemoveContact(Contact contact)
+        //{
+        //    contacts.Remove(contact);
+        //}
+        // Метод для удаления элемента по индексу
+        public bool RemoveByIndex(int index)
         {
-            contacts.Remove(contact);
+            if (index >=0 && index < contacts.Count)
+            {
+                contacts.RemoveAt(index);
+                return true;
+            }
+            MessageBox.Show("Индекс вне границы диапазона");
+            return false;
         }
+
         // Метод для изменения элемента
         public bool EditContact(int index, Contact contact)
         {
-            if (index >= 0 && index < contacts.Count)
+            if (FieldsAreValid(contact))
             {
-                if (FieldsAreValid(contact))
-                {
-                    contacts[index] = contact;
-                    return true;
-                }
+                contacts[index] = contact;
+                return true;
             }
             return false;
         }
@@ -108,5 +117,7 @@ namespace WPF_Lesson4_1.Model
                 }
             }
         }
+
+        
     }
 }
