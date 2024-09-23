@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Windows;
-using System.Windows.Controls;
 using WPF_Lesson5_1ПланировщикМероприятий.ViewModel;
-
 
 namespace WPF_Lesson5_1ПланировщикМероприятий
 {
@@ -15,6 +13,11 @@ namespace WPF_Lesson5_1ПланировщикМероприятий
         {
             InitializeComponent();
             DataContext = vm;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

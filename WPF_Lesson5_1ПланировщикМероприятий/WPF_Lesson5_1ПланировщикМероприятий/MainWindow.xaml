@@ -5,24 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Lesson5_1ПланировщикМероприятий"
         mc:Ignorable="d"
-        Title="Приложение для планирования мероприятий" Height="450" Width="800" Closing="Window_Closing">
+        Title="Приложение для планирования мероприятий" Height="450" Width="800" Closing="Window_Closing" Name="StartWindow" Loaded="StartWindow_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="4*" />
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
-        <GridSplitter Grid.Column="1" ShowsPreview="False" Width="3"
-        HorizontalAlignment="Center" VerticalAlignment="Stretch" />
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Label Content="" FontSize="30" HorizontalAlignment="Center"/>
-        <StackPanel Grid.Row="2">
-            <Button  Content="Посмотреть мероприятие" Click="Button_Click"/>
-            <Button  Content="Изменить мероприятие" Click="Button_Click_1"/>
+        <Label  Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Content="Приложение для планирования мероприятий" FontSize="24" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Button Content="Посмотреть мероприятие" Click="Button_Click"/>
+            <Button Content="Изменить мероприятие" Click="Button_Click_1"/>
+            <Button Content="Выход" Click="Button_Click_2"/>
+
         </StackPanel>
+        <!--Height="380" Margin="0,76,0,140"-->
+        <!--Учитсья писать через обработчик событий открытие окон по кнопке мыши это более серьезный подход-->
+        <DataGrid ItemsSource="{Binding myEvents}" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2">
+        </DataGrid>
     </Grid>
 </Window>

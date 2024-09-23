@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics.Contracts;
 using System.IO;
+using System.Runtime.Remoting.Contexts;
 using System.Windows;
 
 namespace WPF_Lesson5_1ПланировщикМероприятий.Model
@@ -8,6 +10,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.Model
     public class MyEventManager
     {
         private string filePath = "event.txt";
+
         private ObservableCollection<MyEvent> events = new ObservableCollection<MyEvent>();
         public ObservableCollection<MyEvent> Events => events;
         // Метод для добавления мероприятия
@@ -37,10 +40,26 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.Model
             }
             return true;
         }
-        // метод для удаления элемента
-        public void RemoveElement(MyEvent _event)
+        // Метод для удаления элемента по индексу
+        public bool RemoveByIndex(int index)
         {
-            events.Remove(_event);
+            if (index >= 0 && index < events.Count)
+            {
+                events.RemoveAt(index);
+                return true;
+            }
+            MessageBox.Show("Индекс вне границы диапазона");
+            return false;
+        }
+        // Метод для изменения элемента
+        public bool EditEvent(int index, MyEvent _event)
+        {
+            if (FieldsAreValid(_event))
+            {
+                events[index] = _event;
+                return true;
+            }
+            return false;
         }
         // метод для сохранения списка в файл
         public void SaveMyEvent()

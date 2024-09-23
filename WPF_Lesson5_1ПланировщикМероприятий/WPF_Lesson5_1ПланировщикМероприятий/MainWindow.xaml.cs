@@ -13,7 +13,8 @@ namespace WPF_Lesson5_1ПланировщикМероприятий
         public MainWindow()
         {
             InitializeComponent();
-            //vm.
+            DataContext = vm;
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -30,7 +31,17 @@ namespace WPF_Lesson5_1ПланировщикМероприятий
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            vm.s
+            vm.SaveMyEvents();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void StartWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

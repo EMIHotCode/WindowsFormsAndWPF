@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Lesson5_1ПланировщикМероприятий"
         mc:Ignorable="d"
-        Title="WindowForChangeEvents" Height="450" Width="800">
+    Title="Окно для редактирования мероприятий" Height="450" Width="800" Name="EditEvents" Loaded="EditEvents_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="4*"/>
@@ -15,18 +15,23 @@
             <Label Content="Наименование мероприятия: "/>
             <ComboBox Name="comboBoxTitle" SelectedValue="{Binding TextBoxTitle}"/>
             <Label Content="Описание мероприятия: "/>
-            <TextBox Text="{Binding TextBoxDescription}"/>
+            <TextBox Name="txtBoxDescription" Text="{Binding TextBoxDescription}"/>
             <Label Content="Дата мероприятия: "/>
-            <DatePicker IsDropDownOpen="False" SelectedDateFormat="Short" Text="{Binding TextBoxPhoneNumber}"/>
+            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" Text="{Binding TextBoxData}"/>
             <Label Content="Галочка если Выполнено : "/>
             <CheckBox Name="checkBoxIsDone" IsChecked="{Binding IsComplete}"/>
-             
-            <Button Content="Добавить" Margin="0, 15" Command="{Binding AddContactCommand}" CommandParameter="{Binding ElementName=AddContact}"/>
-            <Button Content="Удалить" Margin="0, 15" Command="{Binding AddContactCommand}" CommandParameter="{Binding ElementName=AddContact}"/>
-            <Button Content="Редактировать" Margin="0, 15" Command="{Binding AddContactCommand}" CommandParameter="{Binding ElementName=AddContact}"/>
-            <Button Content="Сохранить" Margin="0, 15" Command="{Binding AddContactCommand}" CommandParameter="{Binding ElementName=AddContact}"/>
-            <Button Content="Выход" Margin="0, 15" Command="{Binding AddContactCommand}" CommandParameter="{Binding ElementName=AddContact}"/>
 
+            <Button Content="Добавить" Margin="0, 10" Command="{Binding AddEventCommand}" CommandParameter="{Binding ElementName=EditEvents}"/>
+            <Button Content="Удалить" Margin="0, 10" Command="{Binding RemoveEventCommand}" CommandParameter="{Binding ElementName=EditEvents}"/>
+            <Button Content="Редактировать" Margin="0, 10" Command="{Binding EditEventCommand}" CommandParameter="{Binding ElementName=EditEvents}"/>
+            <Button Content="Сохранить" Margin="0, 10" Command="{Binding SaveEventCommand}" CommandParameter="{Binding ElementName=EditEvents}"/>
+            <Button Content="Выход" Margin="0, 10" Click="Button_Click"/>
         </StackPanel>
+
+        <DataGrid Name="DG_Events" ItemsSource="{Binding myEvents}" SelectedIndex="{Binding SelectedIndex}" IsReadOnly="True" Grid.Column="1" SelectionChanged="DG_Events_SelectionChanged">
+            <!--
+            SelectedIndex="{Binding SelectedIndex} - привязка поля класса MyViewModel чтобы к форме DataGrid SelectedIndex чтобы при выборе по индексу обрабатывалось комманды кнопок  
+            -->
+        </DataGrid>
     </Grid>
 </Window>

@@ -7,6 +7,8 @@ using System.Windows.Input;
 
 namespace WPF_Lesson5_1ПланировщикМероприятий.Model
 {
+    // alt+Enter - реализовать интерфейс ICommand
+    // RelayCommand это реализация инерфейса ICommand
     public class RelayCommand : ICommand
     {
         private Action<object> _execute;
