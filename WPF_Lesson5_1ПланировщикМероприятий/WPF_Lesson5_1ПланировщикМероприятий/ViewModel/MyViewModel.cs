@@ -6,7 +6,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
 {
     public class MyViewModel
     {
-        // Поле для работы с менеджером контактов
+        // Поле для работы с менеджером мероприятий
         private MyEventManager myeventManager = new MyEventManager();
 
         // Конструктор класса
@@ -36,17 +36,15 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
             }
         }
 
-
-
         // СВОЙСТВА для хранения данных, введенных пользователем в текстовые поля 
         public string TextBoxTitle { get; set; }
-        public string TextBoxDescription { get; set; }
-        public DateTime TextBoxData { get; set; }
+        public string TextBoxDescription { get; set; } 
+        public DateTime TextBoxData { get; set; } = DateTime.Now;
         public bool IsComplete { get; set; }
-        // поле для хранения комманды добавления нового контакта
+        // поле для хранения комманды добавления нового мероприятия
 
         private RelayCommand addEventCommand;
-        // СВОЙСТВО, предоставляющее доступ к команде добавления контакта
+        // СВОЙСТВО, предоставляющее доступ к команде добавления мероприятия
         public RelayCommand AddEventCommand
         {
             get
@@ -67,10 +65,10 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
         {
             myeventManager.SaveMyEvent();
         }
-        // поле для хранения комманды сохранения контактов
+        // поле для хранения комманды сохранения мероприятия
 
         private RelayCommand saveEventCommand;
-        // СВОЙСТВО, предоставляющее доступ к команде сохнанения контактов
+        // СВОЙСТВО, предоставляющее доступ к команде сохнанения мероприятия
         public RelayCommand SaveEventCommand
         {
             get
@@ -107,22 +105,6 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
         }
 
 
-
-
-        //// СВОЙСТВА для хранения данных, введенных пользователем в поля для заполнения
-        //public string Titel { get; set; }
-        //public string Description { get; set; }
-        //public DateTime Date { get; set; }
-        //public bool IsCompleted { get; set; }
-
-        //// метод для установки значений в Поля  
-        //public void SetTextBox(string _title, string _description, DateTime _date, bool _isComplet)
-        //{
-        //    Titel = _title;
-        //    Description = _description;
-        //    Date = _date;
-        //    IsCompleted = _isComplet;
-        //}
 
         // поле для хранения  команды редактирования мероприятия
         private RelayCommand editEventCommand;

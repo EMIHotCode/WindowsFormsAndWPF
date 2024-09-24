@@ -17,7 +17,7 @@
             <Label Content="Описание мероприятия: "/>
             <TextBox Name="txtBoxDescription" Text="{Binding TextBoxDescription}"/>
             <Label Content="Дата мероприятия: "/>
-            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" Text="{Binding TextBoxData}"/>
+            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" DisplayDate="{Binding TextBoxData}" />
             <Label Content="Галочка если Выполнено : "/>
             <CheckBox Name="checkBoxIsDone" IsChecked="{Binding IsComplete}"/>
 

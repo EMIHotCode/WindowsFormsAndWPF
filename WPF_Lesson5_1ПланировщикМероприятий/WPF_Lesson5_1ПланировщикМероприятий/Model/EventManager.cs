@@ -27,7 +27,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.Model
         public bool FieldsAreValid(MyEvent _event)
         {
             // Проверка на пустое поле имени
-            if (string.IsNullOrEmpty(_event.Titel))
+            if (string.IsNullOrEmpty(_event.Title))
             {
                 MessageBox.Show("Поле название мероприятия не должно быть пустым", "Заполнены не все поля");
                 return false;
@@ -68,7 +68,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.Model
             {
                 foreach (MyEvent _event in events)
                 {
-                    writer.WriteLine($"{_event.Titel}|{_event.Description}|{_event.Date}|{_event.IsCompleted}");
+                    writer.WriteLine($"{_event.Title}|{_event.Description}|{_event.Date}|{_event.IsCompleted}");
                 }
             }
         }

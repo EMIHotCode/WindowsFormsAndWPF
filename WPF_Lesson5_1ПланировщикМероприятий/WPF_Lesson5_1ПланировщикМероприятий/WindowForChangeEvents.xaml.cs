@@ -18,7 +18,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий
         {
             InitializeComponent();
             DataContext = vm;
-
+            datePickerEvent.SelectedDate = DateTime.Now;
             comboBoxTitle.ItemsSource = new List<string>()
             { "День рождения", "Праздник", "Конференция", "Семинар", "Прочее"};
         }
@@ -30,15 +30,15 @@ namespace WPF_Lesson5_1ПланировщикМероприятий
 
         private void DG_Events_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            MyEvent selectIndex = (MyEvent)DG_Events.SelectedItem;
-            MyViewModel tmpObj = new MyViewModel();
-            if (selectIndex != null)
-            {
-                comboBoxTitle.Text = selectIndex.Titel;
-                //txtBoxDescription.Text = selectIndex.Description;
-                datePickerEvent.SelectedDate = selectIndex.Date;
-                //checkBoxIsDone.IsChecked = selectIndex.IsCompleted;
-            }
+            //MyEvent selectIndex = (MyEvent)DG_Events.SelectedItem;
+            //MyViewModel tmpObj = new MyViewModel();
+            //if (selectIndex != null)
+            //{
+            //    comboBoxTitle.Text = selectIndex.Titel;
+            //    //txtBoxDescription.Text = selectIndex.Description;
+            //    datePickerEvent.SelectedDate = selectIndex.Date;
+            //    //checkBoxIsDone.IsChecked = selectIndex.IsCompleted;
+            //}
         }
 
         private void EditEvents_Loaded(object sender, RoutedEventArgs e)
