@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using WPF_Lesson5_1ПланировщикМероприятий.Model;
 
 namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
 {
-    public class MyViewModel
+    public class MyViewModel : INotifyPropertyChanged
     {
         // Поле для работы с менеджером мероприятий
         private MyEventManager myeventManager = new MyEventManager();
@@ -36,10 +37,41 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
             }
         }
 
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+
         // СВОЙСТВА для хранения данных, введенных пользователем в текстовые поля 
-        public string TextBoxTitle { get; set; }
-        public string TextBoxDescription { get; set; } 
-        public DateTime TextBoxData { get; set; } = DateTime.Now;
+        private string textBoxTitle = " ";
+        private string textBoxDescription;
+        public string TextBoxTitle 
+        {
+            get => textBoxTitle;
+            set { textBoxTitle = value; OnPropertyChanged(); }
+        }
+        public string TextBoxDescription
+        {
+            get => textBoxDescription;
+            set { textBoxDescription = value; OnPropertyChanged(); }
+        }
+        private DateTime _today = DateTime.Today;
+        public DateTime Today
+        {
+            get { return _today; }
+            set
+            {
+                if (_today != value)
+                {
+                    _today = value;
+                    OnPropertyChanged(nameof(Today));
+                }
+            }
+        }
+        //public DateTime TextBoxData { get; set; } = DateTime.Now;
         public bool IsComplete { get; set; }
         // поле для хранения комманды добавления нового мероприятия
 
@@ -52,7 +84,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
                 return addEventCommand ?? (
                     new RelayCommand(obj =>
                     {
-                        myeventManager.AddEvent(new MyEvent(TextBoxTitle, TextBoxDescription, TextBoxData, IsComplete));
+                        myeventManager.AddEvent(new MyEvent(TextBoxTitle, TextBoxDescription, Today, IsComplete));
                     }
                     )
                 );
@@ -118,7 +150,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
                     {
                         //MyEvent editMyEvent = myeventManager.Events[SelectedIndex];
                         //SetTextBox(editMyEvent.Titel, editMyEvent.Description, editMyEvent.Date, editMyEvent.IsCompleted);
-                        MyEvent editMyEvent = new MyEvent(TextBoxTitle, TextBoxDescription, TextBoxData, IsComplete);
+                        MyEvent editMyEvent = new MyEvent(TextBoxTitle, TextBoxDescription, Today, IsComplete);
                         myeventManager.EditEvent(SelectedIndex, editMyEvent);
 
                     }));

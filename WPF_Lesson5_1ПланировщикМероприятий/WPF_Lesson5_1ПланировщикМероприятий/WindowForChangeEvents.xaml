@@ -13,11 +13,11 @@
         </Grid.ColumnDefinitions>
         <StackPanel>
             <Label Content="Наименование мероприятия: "/>
-            <ComboBox Name="comboBoxTitle" SelectedValue="{Binding TextBoxTitle}"/>
+            <ComboBox Name="comboBoxTitle" ItemsSource="{Binding Path=Clients}" SelectedValue="{Binding TextBoxTitle}"/>
             <Label Content="Описание мероприятия: "/>
             <TextBox Name="txtBoxDescription" Text="{Binding TextBoxDescription}"/>
             <Label Content="Дата мероприятия: "/>
-            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" DisplayDate="{Binding TextBoxData}" />
+            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" SelectedDate="{Binding Today}" />
             <Label Content="Галочка если Выполнено : "/>
             <CheckBox Name="checkBoxIsDone" IsChecked="{Binding IsComplete}"/>
 
@@ -28,7 +28,7 @@
             <Button Content="Выход" Margin="0, 10" Click="Button_Click"/>
         </StackPanel>
 
-        <DataGrid Name="DG_Events" ItemsSource="{Binding myEvents}" SelectedIndex="{Binding SelectedIndex}" IsReadOnly="True" Grid.Column="1" SelectionChanged="DG_Events_SelectionChanged">
+        <DataGrid Name="DG_Events" ItemsSource="{Binding myEvents}" SelectedIndex="{Binding SelectedIndex}" SelectedItem="{Binding MyItem}" IsReadOnly="True" Grid.Column="1" SelectionChanged="DG_Events_SelectionChanged">
             <!--
             SelectedIndex="{Binding SelectedIndex} - привязка поля класса MyViewModel чтобы к форме DataGrid SelectedIndex чтобы при выборе по индексу обрабатывалось комманды кнопок  
             -->
