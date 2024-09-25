@@ -7,6 +7,7 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
 {
     public class MyViewModel : INotifyPropertyChanged
     {
+        /*Привет из АТП pull - это вернуть из репозитория на комп локально push - слить на сервер*/
         // Поле для работы с менеджером мероприятий
         private MyEventManager myeventManager = new MyEventManager();
 
