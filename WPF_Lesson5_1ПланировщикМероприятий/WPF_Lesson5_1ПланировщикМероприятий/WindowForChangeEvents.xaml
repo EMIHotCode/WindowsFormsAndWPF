@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Lesson5_1ПланировщикМероприятий"
         mc:Ignorable="d"
-    Title="Окно для редактирования мероприятий" Height="450" Width="800" Name="EditEvents" Loaded="EditEvents_Loaded">
+    Title="Окно для редактирования мероприятий" Height="450" Width="800" Name="EditEvents" Loaded="EditEvents_Loaded" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="4*"/>
@@ -17,7 +17,7 @@
             <Label Content="Описание мероприятия: "/>
             <TextBox Name="txtBoxDescription" Text="{Binding TextBoxDescription}"/>
             <Label Content="Дата мероприятия: "/>
-            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" SelectedDate="{Binding Today}" />
+            <DatePicker Name="datePickerEvent" IsDropDownOpen="False" SelectedDateFormat="Short" SelectedDate="{Binding Today, Mode=TwoWay}" />
             <Label Content="Галочка если Выполнено : "/>
             <CheckBox Name="checkBoxIsDone" IsChecked="{Binding IsComplete}"/>
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Lesson5_1ПланировщикМероприятий"
         mc:Ignorable="d"
-        Title="Приложение для планирования мероприятий" Height="450" Width="800" Closing="Window_Closing" Name="StartWindow" Loaded="StartWindow_Loaded">
+        Title="Приложение для управления задачами" Height="420" Width="670" Name="StartWindow" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -13,20 +13,37 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="0.25*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Label  Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Content="Приложение для планирования мероприятий" FontSize="24" HorizontalAlignment="Center"/>
-        <StackPanel Grid.Row="1" Grid.Column="0">
-            <Button Content="Посмотреть мероприятие" Click="Button_Click"/>
-            <Button Content="Изменить мероприятие" Click="Button_Click_1"/>
-            <Button Content="Выход" Click="Button_Click_2"/>
+        <Menu Height="25" VerticalAlignment="Top" Grid.ColumnSpan="3">
+            <MenuItem Header="Задачи">
+                <MenuItem Header="Добавление/Редактирование" Click="MenuItem_Click"></MenuItem>
+                <Separator />
+                <MenuItem Header="Выход" Click="MenuItem_Click_1" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Сортировка" >
+                <MenuItem Header="Сортировка выполненое/невыполненное"></MenuItem>
+                <MenuItem Header="Сортировка по приоритету"></MenuItem>
+                <MenuItem Header="Сортировка по дате выполнения"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Удаление задачи" >
+                <MenuItem Header="Удаление по индексу"></MenuItem>
+                <MenuItem Header="Удаление завершенных IsComplete = true" Command="{Binding RemoveEventsIsCompleteCommand}" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Сохранение" >
+                <MenuItem Header="Сохранение списка задач"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Label  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Content="Приложение &quot;Менеджер задач&quot; " FontSize="24" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Row="2" Grid.Column="0">
 
         </StackPanel>
         <!--Height="380" Margin="0,76,0,140"-->
         <!--Учитсья писать через обработчик событий открытие окон по кнопке мыши это более серьезный подход-->
-        <DataGrid ItemsSource="{Binding myEvents}" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2">
+        <DataGrid ItemsSource="{Binding myEvents}" IsReadOnly="True"  Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="3">
         </DataGrid>
     </Grid>
 </Window>

@@ -7,7 +7,6 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
 {
     public class MyViewModel : INotifyPropertyChanged
     {
-        /*Привет из АТП pull - это вернуть из репозитория на комп локально push - слить на сервер*/
         // Поле для работы с менеджером мероприятий
         private MyEventManager myeventManager = new MyEventManager();
 
@@ -138,6 +137,20 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
         }
 
 
+        // поле для хранения комманды удаления завершенных контактов  IsComplet = true
+
+        private RelayCommand removeEventsIsCompleteCommand;
+        public RelayCommand RemoveEventsIsCompleteCommand
+        {
+            get
+            {
+                return removeEventsIsCompleteCommand ?? (new RelayCommand(obj =>
+                {
+                    myeventManager.RemoveByIsComplete();
+                }
+                ));
+            }
+        }
 
         // поле для хранения  команды редактирования мероприятия
         private RelayCommand editEventCommand;

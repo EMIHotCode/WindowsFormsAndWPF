@@ -51,16 +51,30 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.Model
             MessageBox.Show("Индекс вне границы диапазона");
             return false;
         }
+
+        // Метод для удаления элемента если IsComplete = true
+        public void RemoveByIsComplete()
+        {
+            for ( int i=0; i < events.Count; i++)
+            {
+                if (events[i].IsCompleted == true)
+                {
+                    events.Remove(events[i]);
+                    i--;
+                }
+            }
+        }
+
         // Метод для изменения элемента
         public bool EditEvent(int index, MyEvent _event)
-        {
-            if (FieldsAreValid(_event))
             {
-                events[index] = _event;
-                return true;
+                if (FieldsAreValid(_event))
+                {
+                    events[index] = _event;
+                    return true;
+                }
+                return false;
             }
-            return false;
-        }
         // метод для сохранения списка в файл
         public void SaveMyEvent()
         {
