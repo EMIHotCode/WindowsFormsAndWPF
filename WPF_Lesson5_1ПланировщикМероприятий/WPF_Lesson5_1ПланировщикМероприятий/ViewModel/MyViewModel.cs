@@ -170,6 +170,38 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.ViewModel
                     }));
             }
         }
+
+
+        // поле для хранения комманды сортировки списка по возрастанию даты
+
+        private RelayCommand sortEventsByDateUpCommand;
+        public RelayCommand SortEventsByDateUpCommand
+        {
+            get
+            {
+                return sortEventsByDateUpCommand ?? (new RelayCommand(obj =>
+                {
+                    myeventManager.SortByDateMyEventsUp();
+                }
+                ));
+            }
+        }
+
+
+        // поле для хранения комманды сортировки списка по убыванию даты
+
+        private RelayCommand sortEventsByDateDownCommand;
+        public RelayCommand SortEventsByDateDownCommand
+        {
+            get
+            {
+                return sortEventsByDateDownCommand ?? (new RelayCommand(obj =>
+                {
+                    myeventManager.SortByDateMyEventsDown();
+                }
+                ));
+            }
+        }
     }
 
 }

@@ -25,12 +25,15 @@
                 <MenuItem Header="Выход" Click="MenuItem_Click_1" ></MenuItem>
             </MenuItem>
             <MenuItem Header="Сортировка" >
-                <MenuItem Header="Сортировка выполненое/невыполненное"></MenuItem>
-                <MenuItem Header="Сортировка по приоритету"></MenuItem>
-                <MenuItem Header="Сортировка по дате выполнения"></MenuItem>
+                <MenuItem Header="Сортировка задач выполненое/невыполненное"></MenuItem>
+                <MenuItem Header="Сортировка задач по приоритету"></MenuItem>
+                <MenuItem Header="Сортировка задач по дате выполнения">
+                    <MenuItem Header="По убыванию даты" Command="{Binding SortEventsByDateUpCommand}"></MenuItem>
+                    <MenuItem Header="По возрастанию даты" Command="{Binding SortEventsByDateDownCommand}"></MenuItem>
+                </MenuItem>
             </MenuItem>
             <MenuItem Header="Удаление задачи" >
-                <MenuItem Header="Удаление по индексу"></MenuItem>
+                <MenuItem Header="Удаление по индексу" Command="{Binding RemoveEventCommand}"></MenuItem>
                 <MenuItem Header="Удаление завершенных IsComplete = true" Command="{Binding RemoveEventsIsCompleteCommand}" ></MenuItem>
             </MenuItem>
             <MenuItem Header="Сохранение" >
@@ -43,7 +46,7 @@
         </StackPanel>
         <!--Height="380" Margin="0,76,0,140"-->
         <!--Учитсья писать через обработчик событий открытие окон по кнопке мыши это более серьезный подход-->
-        <DataGrid ItemsSource="{Binding myEvents}" IsReadOnly="True"  Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="3">
+        <DataGrid ItemsSource="{Binding myEvents}"  Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="3">
         </DataGrid>
     </Grid>
 </Window>

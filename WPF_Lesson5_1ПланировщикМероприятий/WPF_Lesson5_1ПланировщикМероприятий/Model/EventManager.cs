@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics.Contracts;
 using System.IO;
+using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Windows;
 
@@ -103,5 +104,23 @@ namespace WPF_Lesson5_1ПланировщикМероприятий.Model
                 }
             }
         }
+
+        //метод для сортировки списка по дате по возрастанию 
+        public void SortByDateMyEventsUp()
+        {
+            events = new ObservableCollection<MyEvent>(events.OrderBy(e => e.Date));
+        }
+        //метод для сортировки списка по дате по убыванию
+        public void SortByDateMyEventsDown()
+        {
+            events = new ObservableCollection<MyEvent>(events.OrderByDescending(e => e.Date));
+        }
+
+        //метод для сортировки списка по выполнеными 
+        public void SortByIsDoneEvents()
+        {
+
+        }
+
     }
 }
